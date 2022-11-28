@@ -1,0 +1,35 @@
+header {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    color:$primario
+    grid-area: encabezado;
+    
+    div {
+        display: flex;
+        justify-content: flex-start;
+        width: 20%;
+
+        a {
+            img {
+                width: 70%;
+            }
+        }
+    }
+    nav {
+        width: 60%;
+
+        ul {
+            display: flex;
+            height: 100%;
+            justify-content: baseline;
+            flex-direction: column;
+            align-items: flex-end;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}

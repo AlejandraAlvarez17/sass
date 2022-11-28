@@ -1,0 +1,8 @@
+.padre {
+    display: grid;
+    grid-template-areas: " encabezado encabezado "
+        " seccion     publicidad"
+        " pie          pie ";
+    grid-template-columns: 5fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+}

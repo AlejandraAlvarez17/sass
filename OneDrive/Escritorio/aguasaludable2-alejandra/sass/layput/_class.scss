@@ -1,0 +1,46 @@
+.receta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 70px;
+    background-image: linear-gradient(to right, blue, rgb(129, 238, 129), grey);
+}
+
+.ampliar {
+    padding: 1%;
+    border-radius: 50%;
+    background-color: blue;
+
+    &:hover {
+        transform: scale(2, 2);
+        rotate: (340);
+        background-image: linear-gradient(to right, blueviolet, blue);
+
+    }
+}
+
+.contactanos {
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+    padding: 15%;
+}
+
+.aguasaludable {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+    &__img {
+        border-radius: 5%;
+        opacity: 0.6;
+        width: 40%;
+
+        &__:hover {
+            opacity: 1;
+            border: solid 2px beige
+        }
+    }
+}

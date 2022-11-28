@@ -1,0 +1,14 @@
+footer {
+    grid-area: pie;
+    background-color: $secundario;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    a {
+        i {
+            display: flex;
+            font-size: 30px;
+        }
+    }
+}

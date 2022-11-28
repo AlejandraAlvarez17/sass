@@ -1,0 +1,66 @@
+
+@import "./reset/reset";
+@import "./components/cards";
+@import "./components/header";
+@import "./components/footer";
+@import "./layput/class";
+@import "./layput/grids";
+@import "./layput/animaciones";
+@import "./layput/media";
+
+h1 {
+  color: rgb(6, 190, 15);
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  background-color: blueviolet;
+}
+
+.imagenvasodeagua img {
+  width: 80%;
+  height: auto;
+}
+section {
+  padding: 50px 30px 20px 60px;
+  margin-left: 40px;
+
+  background-image:linear-gradient(to right,blue ,rgb(129, 238, 129),grey);
+  }
+main {
+  grid-area: seccion;
+  background-color: plum;
+  padding: auto;
+}
+
+aside {
+  grid-area: publicidad;
+  background-color: rgba(124, 4, 209, 0.914);
+}
+
+ol {
+  list-style-type: none;
+
+  ul {
+    list-style-type: none;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+fieldset {
+  width: 50%;
+}
+
+.ifram {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(7, 30, 30);
+}
